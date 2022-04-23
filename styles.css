@@ -1,0 +1,118 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*CREATIVE TEXT*/
+h2 {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -0.045em;
+  color: #000000;
+  margin-top: 71px;
+}
+h2, h4, .creative-text  {  margin-left: 12px;}
+
+h4 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.creative-text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+
+/*MINI CONTAINER*/
+
+.crew-info {
+  padding: 19px;
+}
+.crew {
+  position: relative;
+}
+.img-gallery {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   gap: 10px;
+ }
+.img-crew {
+  width: 139px;
+}
+.crew-two, .crew-four, .crew-six  {
+  margin-top: 30px;
+}
+.crew-profession {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  text-transform: uppercase;
+  color: #000000;
+  transform: rotate(90deg);
+
+  position: absolute;
+  width: 130px;
+  height: 11px;
+  top: 50px;
+  left: 80px;
+}
+.img-text{
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+color: #000000;
+width: 128px;
+height: 18px;
+margin-top: 0;
+}
+
+/*FOOTER*/
+
+.footer {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #A9A9A9;
+
+  margin: 80px 42px 10px 46px;
+}
+/*.crew-two, .crew-four, .crew-six  {
+  margin-top: 30px;
+}*/
+@media (min-width: 484px) and (max-width: 642px){
+   .crew-two, .crew-five {margin-top: 40px;}
+   .crew-four, .crew-six {margin-top: 0;}
+}
+
+@media (min-width: 643px) and (max-width: 842px){
+  .crew-four {margin-top: 40px;}
+  .crew-five {margin-top: 30px; margin-left: 100px;}
+  .crew-six {margin-right: 100px}
+}
+@media (min-width: 843px) {
+  .crew-six {
+    margin-inline: 300px;
+    align-self: center;
+  }
+}
